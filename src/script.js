@@ -25,7 +25,7 @@ var CUSTOM_MAP = false;
 var NOISE_CREATED = false;
 
 var LONG_MOUNTAINS = false;
-var voronoi = false;
+var voronoi = true;
 var delaunay = false;
 var colors = [];
 var v = null;
@@ -193,10 +193,10 @@ if (voronoi || delaunay)
 	draw(voronoiDiagram);
 
 	yArray = addOverlay(yArray, voronoiDiagram);
+
+	draw(yArray);
+
 }
-
-draw(yArray);
-
 
 });
 
