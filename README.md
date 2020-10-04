@@ -1,2 +1,3 @@
-# fractal_world_map
-random_world_map
+# Random World Map
+
+This page randomly generates a world using cellular automata and perlin noise.
