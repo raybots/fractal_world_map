@@ -25,7 +25,7 @@ var CUSTOM_MAP = false;
 var NOISE_CREATED = false;
 
 var LONG_MOUNTAINS = false;
-var voronoi = true;
+var voronoi = false;
 var delaunay = false;
 var colors = [];
 var v = null;
